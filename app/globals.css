@@ -1,6 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #DDE3E4;
+  --foreground: #00243D;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +40,14 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+
+[data-sr] {
+	position: absolute;
+	inline-size: 1px;
+	block-size: 1px;
+	overflow: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
